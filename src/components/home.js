@@ -195,7 +195,7 @@ function Home(props) {
           {fetched && (
             <React.Fragment>
               <MapExplorer
-                mapMeta={MAP_META.India}
+                mapMeta={MAP_META.World}
                 states={states}
                 stateDistrictWiseData={stateDistrictWiseData}
                 stateTestData={stateTestData}

@@ -142,13 +142,15 @@ function ChoroplethMap({
           const region = d.properties[propertyField];
           const value = mapData[region] ? mapData[region][mapOption] : 0;
           return (
-            Number(
+            'Hi'
+          /*  Number(
               parseFloat(
                 100 * (value / (statistic[mapOption].total || 0.001))
               ).toFixed(2)
             ).toString() +
             '% from ' +
             toTitleCase(region)
+            */
           );
         });
 

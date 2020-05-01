@@ -6,6 +6,12 @@ export const MAP_TYPES = {
 export const MAPS_DIR = '/maps';
 
 export const MAP_META = {
+  World: {
+    name: 'World',
+    geoDataFile: `${MAPS_DIR}/topojson-master/world-countries-sans-antarctica.json`,
+    mapType: MAP_TYPES.COUNTRY,
+    graphObjectName: 'world',
+  },
   India: {
     name: 'India',
     geoDataFile: `${MAPS_DIR}/india.json`,
